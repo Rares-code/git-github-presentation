@@ -33,7 +33,7 @@ git is a **system to keep track of changes** across a set of files in a folder o
 
 Every change, or **commit**, has a unique ID (or **hash**) linked to its parent. Furthermore, you can create **branches**, which have a different history than your master branch, with their own commits; these can then be merged back into the master.
 
-![Git flow](./git-flow.svg)
+![Git flow](https://raw.githubusercontent.com/alexsincai/git-github-presentation/master/git-flow.svg)
 
 ---
 
