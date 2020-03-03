@@ -22,6 +22,12 @@
     - [`git branch`](#git-branch)
     - [`git checkout`](#git-checkout)
     - [`git push`](#git-push)
+    - [`git fetch`](#git-fetch)
+    - [`git merge`](#git-merge)
+    - [`git pull`](#git-pull)
+    - [`git remote`](#git-remote)
+    - [`git cherry-pick`](#git-cherry-pick)
+    - [`git reset`](#git-reset)
 
 <!-- /code_chunk_output -->
 
@@ -452,8 +458,9 @@ $ git push -u origin <branch>
 
 Please note that **origin** is just a label, it can be called anything (but really shouldn't...). "origin" is just the standard name for the remote repo's URL.
 
-````bash
-$ git push --
+```bash
+$ git push
+```
 
 [Back to top](#git-and-github-basics "to top")
 
@@ -465,7 +472,7 @@ Gets the content from the remote repository, **without** applying it.
 
 ```bash
 $ git fetch
-````
+```
 
 [Back to top](#git-and-github-basics "to top")
 
