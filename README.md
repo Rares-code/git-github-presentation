@@ -35,9 +35,11 @@
 
 ## Introduction
 
-git is a **system to keep track of changes** across a set of files in a folder on your computer. It lives in a hidden folder called `.git` and it keeps track of all changes specified, as you work.
+`git` is a **system to keep track of changes** across a set of files in a folder on your computer. It lives in a hidden folder called `.git` and it keeps track of all changes specified, as you work.
 
 Every change, or **commit**, has a unique ID (or **hash**) linked to its parent. Furthermore, you can create **branches**, which have a different history than your master branch, with their own commits; these can then be merged back into the master.
+
+**[github.com](https://github.com/)** is **not** git; it is simply a convenient website to backup and share your repositories.
 
 ![Git flow](./git-flow.svg)
 
