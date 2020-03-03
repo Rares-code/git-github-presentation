@@ -4,30 +4,29 @@
 
 <!-- code_chunk_output -->
 
-- [git and Github basics](#git-and-github-basics)
-  - [Introduction](#introduction)
-  - [Preamble](#preamble)
-  - [Creating a new project](#creating-a-new-project)
-  - [Contributing to an existing project](#contributing-to-an-existing-project)
-  - [Commands](#commands)
-    - [Setting up](#setting-up)
-    - [`git init`](#git-init)
-    - [`git add`](#git-add)
-    - [`git commit`](#git-commit)
-    - [`git status`](#git-status)
-    - [`git log`](#git-log)
-    - [`git show`](#git-show)
-    - [`git diff`](#git-diff)
-    - [`git clone`](#git-clone)
-    - [`git branch`](#git-branch)
-    - [`git checkout`](#git-checkout)
-    - [`git push`](#git-push)
-    - [`git fetch`](#git-fetch)
-    - [`git merge`](#git-merge)
-    - [`git pull`](#git-pull)
-    - [`git remote`](#git-remote)
-    - [`git cherry-pick`](#git-cherry-pick)
-    - [`git reset`](#git-reset)
+- [Introduction](#introduction)
+- [Preamble](#preamble)
+- [Creating a new project](#creating-a-new-project)
+- [Contributing to an existing project](#contributing-to-an-existing-project)
+- [Commands](#commands)
+  - [Setting up](#setting-up)
+  - [`git init`](#git-init)
+  - [`git add`](#git-add)
+  - [`git commit`](#git-commit)
+  - [`git status`](#git-status)
+  - [`git log`](#git-log)
+  - [`git show`](#git-show)
+  - [`git diff`](#git-diff)
+  - [`git clone`](#git-clone)
+  - [`git branch`](#git-branch)
+  - [`git checkout`](#git-checkout)
+  - [`git push`](#git-push)
+  - [`git fetch`](#git-fetch)
+  - [`git merge`](#git-merge)
+  - [`git pull`](#git-pull)
+  - [`git remote`](#git-remote)
+  - [`git cherry-pick`](#git-cherry-pick)
+  - [`git reset`](#git-reset)
 
 <!-- /code_chunk_output -->
 
@@ -39,7 +38,7 @@
 
 Every change, or **commit**, has a unique ID (or **hash**) linked to its parent. Furthermore, you can create **branches**, which have a different history than your master branch, with their own commits; these can then be merged back into the master.
 
-**[github.com](https://github.com/)** is **not** git; it is simply a convenient website to backup and share your repositories.
+**[github.com](https://github.com/)** is **not** `git`; it is simply a convenient website to backup and share your repositories, via the `git` protocol.
 
 ![Git flow](./git-flow.svg)
 
