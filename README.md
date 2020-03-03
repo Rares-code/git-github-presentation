@@ -1,32 +1,39 @@
 # git and Github basics
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=true} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
--   [git and Github basics](#git-and-github-basics)
-    -   [Preamble](#preamble)
-    -   [Creating a new project](#creating-a-new-project)
-    -   [Contributing to an existing project](#contributing-to-an-existing-project)
-    -   [Commands](#commands)
-        -   [Setting up](#setting-up)
-        -   [`git init`](#git-init)
-        -   [`git add`](#git-add)
-        -   [`git commit`](#git-commit)
-        -   [`git status`](#git-status)
-        -   [`git log`](#git-log)
-        -   [`git show`](#git-show)
-        -   [`git diff`](#git-diff)
-        -   [`git clone`](#git-clone)
-        -   [`git branch`](#git-branch)
-        -   [`git checkout`](#git-checkout)
-        -   [`git push`](#git-push)
-        -   [`git fetch`](#git-fetch)
-        -   [`git merge`](#git-merge)
-        -   [`git pull`](#git-pull)
-        -   [`git remote`](#git-remote)
+- [git and Github basics](#git-and-github-basics)
+  - [Introduction](#introduction)
+  - [Preamble](#preamble)
+  - [Creating a new project](#creating-a-new-project)
+  - [Contributing to an existing project](#contributing-to-an-existing-project)
+  - [Commands](#commands)
+    - [Setting up](#setting-up)
+    - [`git init`](#git-init)
+    - [`git add`](#git-add)
+    - [`git commit`](#git-commit)
+    - [`git status`](#git-status)
+    - [`git log`](#git-log)
+    - [`git show`](#git-show)
+    - [`git diff`](#git-diff)
+    - [`git clone`](#git-clone)
+    - [`git branch`](#git-branch)
+    - [`git checkout`](#git-checkout)
+    - [`git push`](#git-push)
 
 <!-- /code_chunk_output -->
+
+---
+
+## Introduction
+
+git is a **system to keep track of changes** across a set of files in a folder on your computer. It lives in a hidden folder called `.git` and it keeps track of all changes specified, as you work.
+
+Every change, or **commit**, has a unique ID (or **hash**) linked to its parent. Furthermore, you can create **branches**, which have a different history than your master branch, with their own commits; these can then be merged back into the master.
+
+![Git flow](./git-flow.svg)
 
 ---
 
