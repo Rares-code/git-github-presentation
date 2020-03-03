@@ -10,5 +10,4 @@ def compute_area(radius):
     if type(radius) not in [int, float]:
         raise TypeError("Radius should be a real number")
 
-    return radius * radius * pi
-
+    return (radius * radius) * pi
